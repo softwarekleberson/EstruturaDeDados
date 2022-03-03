@@ -1,0 +1,33 @@
+
+/*
+
+                                Teste de mesa
+
+exp == 1 / não
+
+retorna : base * chamada funcao (2, (4 - 1))
+
+
+exp == 1 / não - vale 3
+
+retorna : base * chamada funcao (2, (3 - 1))
+
+
+
+exp == 1 / nao - vale 2
+
+retorna : base * chamada funcao (2, (2 - 1))
+
+
+
+exp == 1 / nao - vale 1
+
+retorna base
+
+
+return base * base * base * base
+
+
+
+
+*/

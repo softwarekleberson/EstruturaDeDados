@@ -1,0 +1,25 @@
+                                                    Lista Encadeada
+
+No maximo um elemento subsequente
+No maximo um elemento antecedente
+
+Nesse tipo de lista pode haver remoção e inserção em qualquer lugar da lista
+
+
+                                                    Pontos Positivos
+
+Alocação sob-demanada
+inserção e remoção sem precisar de realocação 
+
+                                                    Pontos Negativos
+
+Estrutura não está de forma linear na memoria
+    Busca pelos elementos se torna onerosa
+
+Remoção e inserção podem ser onerosas caso a posição requerida esteja muito distante
+    Necessidade de percorrer toda a lista para inserção e remoção
+
+
+                                                    Conselho
+
+Caso a lista seja grande demais, não vale a pena utilizar as listas encadeadas
