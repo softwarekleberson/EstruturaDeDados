@@ -1,0 +1,40 @@
+/*
+
+void addLast(float x, float y)
+{
+	Pontos *p = (Pontos*) malloc(sizeof(Pontos));
+	p->x = x;
+	p->y = y;
+	p->prox = NULL;
+
+	if(listapontos==NULL){
+		listapontos = p;
+        
+	}else{
+		Pontos *listaAux = listapontos;
+		while(listaAux->prox!=NULL){
+			listaAux = listaAux->prox;
+		}
+		listaAux->prox = p;
+	}
+}
+
+*/
+
+
+Para inserir ao fim da lista, será necessario verifica se o 
+listapontos == NULL pois se for significa que eu estou na posicao final da lista
+já que ela aponta para o fim o NULL
+Ai eu posso atribuir o listapontos o proximo objeto p (como se fosse um carrinho de trem, indexa o proximo carrinho)
+
+se não irá criar uma nova ponte que copie o listapontos por que senão eu perco a referencia que listapontos
+possui é estrago o programa
+
+ATRUIBUO os valores a listaAux = listapontos
+agora eu consigo manipular ela
+
+while listaAux-> !=NULL eu faço o listaAux passar para a proxima referencia (mini struct chamada prox)
+ate chegar ao listaAux->prox == NULL
+
+CHEGOU LÁ EU ATRIBUO O PROXIMO CARRINHO AO listaAux que é o p
+

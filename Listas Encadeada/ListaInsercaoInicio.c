@@ -12,7 +12,7 @@ typedef struct pontos Pontos;
 
 Pontos *listapontos;
 
-void add(int x, int y){
+void addFirt(int x, int y){
 
     Pontos *p = (Pontos*) malloc(sizeof(Pontos));
 
@@ -39,10 +39,10 @@ void imprime(){
 
 int main(){
 
-    add(1,2);
-    add(4, 8);
-    add(12, 16);
-    add(48, 120);
+    addFirt(1,2);
+    addFirt(4, 8);
+    addFirt(12, 16);
+    addFirt(48, 120);
 
    imprime();
 }
