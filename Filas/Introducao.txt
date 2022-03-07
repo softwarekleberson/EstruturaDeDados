@@ -1,0 +1,27 @@
+                                                Filas
+
+    Na computação uma Fila é um caso particular de lista
+    Um elemento é encadeado á outro da mesma forma que em uma lista
+
+    -No máximo 1 elemento subsequente
+    -No máximo 1 elemento antecedente
+
+
+    Difirentemente da lista, em uma fila os elementos só podem ser
+    inseridos no final, e a remoção só pode ser feita no início
+
+                                                Pontos Positivos
+
+Alocação sob-demanda
+
+Inserção e remoção são feitos em locais especificos da estrutura e portanto
+facilitam a implementação com base no desenpenho
+
+                                                Pontos Negativos
+
+Estrutura não esá linerar na memoria 
+    Busca por elemento se torna mais onerosa
+
+Não permite inserção em qualquer lugar
+
+
